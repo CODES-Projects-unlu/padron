@@ -60,10 +60,14 @@ Aplicación web para buscar estudiantes en el padrón de la Universidad Nacional
 
 ## 📁 Archivos incluidos
 
+- `index.html` - Aplicación web principal
+- `styles.css` - Estilos CSS responsive
+- `script.js` - Funcionalidad JavaScript
 - `padron_estudiantes_final.json` - Base de datos de estudiantes
-- `buscador_dni.html` - Aplicación web (versión local)
-- `buscador_dni_api.html` - Aplicación web (versión con API)
-- `servidor_simple.py` - Servidor web local
+- `logo.svg` / `icon.svg` - Logo corporativo "P"
+- `manifest.json` - Configuración PWA
+- `404.html` - Página de error para GitHub Pages
+- `.nojekyll` - Deshabilita Jekyll processing
 - `limpiar_final.py` - Script de limpieza de datos
 
 ## 🛠️ Requisitos técnicos
@@ -81,10 +85,14 @@ Aplicación web para buscar estudiantes en el padrón de la Universidad Nacional
 - **Verificar**: Que el DNI sea correcto (solo números)
 - **Verificar**: Que el estudiante esté en el padrón
 
-### Error: "Servidor no responde"
-- **Verificar**: Que Python esté instalado
-- **Verificar**: Que el puerto 8000 esté libre
-- **Verificar**: Que los archivos JSON existan
+### Error: "PWA no funciona"
+- **Verificar**: Que GitHub Pages esté activado
+- **Verificar**: Que la URL sea correcta: `https://codes-projects-unlu.github.io/padron/`
+- **Limpiar caché**: Presionar `Ctrl + Shift + R` para recargar
+
+### Error: "JSON no se carga"
+- **Verificar**: Que el archivo `padron_estudiantes_final.json` esté en el repositorio
+- **Verificar**: Que la ruta en `script.js` sea correcta
 
 ## 📱 Compatibilidad
 

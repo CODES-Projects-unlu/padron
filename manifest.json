@@ -3,10 +3,12 @@
   "short_name": "Lista 110",
   "description": "Buscador de estudiantes del padrón de la Universidad Nacional de Luján",
   "start_url": "/padron/",
+  "scope": "/padron/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#EE8B25",
   "orientation": "portrait-primary",
+  "display_override": ["window-controls-overlay"],
   "icons": [
     {
       "src": "icon.svg",
