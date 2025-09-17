@@ -22,7 +22,27 @@ Aplicación web para buscar estudiantes en el padrón de la Universidad Nacional
 
 ## 🚀 Cómo usar
 
-### Opción 1: Con servidor local (Recomendado)
+### Opción 1: Despliegue en GitHub Pages (Recomendado)
+
+1. **Activar GitHub Pages**:
+   - Ir al repositorio en GitHub: `https://github.com/CODES-Projects-unlu/padron`
+   - Ir a **Settings** > **Pages**
+   - En **Source**, seleccionar **Deploy from a branch**
+   - Seleccionar **Branch**: `main`
+   - Seleccionar **Folder**: `/` (root)
+   - Hacer clic en **Save**
+
+2. **Esperar el despliegue**:
+   - GitHub Pages construirá y desplegará la aplicación
+   - La URL será: `https://codes-projects-unlu.github.io/padron/`
+   - Puede tomar unos minutos la primera vez
+
+3. **Usar la aplicación**:
+   - La aplicación estará disponible 24/7
+   - Funciona en todos los dispositivos
+   - Se puede instalar como PWA en móviles
+
+### Opción 2: Con servidor local
 
 1. **Ejecutar el servidor**:
    ```bash
@@ -37,12 +57,6 @@ Aplicación web para buscar estudiantes en el padrón de la Universidad Nacional
    - Ingrese el número de DNI (solo números)
    - Presione "Buscar" o Enter
    - Vea los datos del estudiante
-
-### Opción 2: Archivo local (Limitado)
-
-1. **Abrir directamente**:
-   - Abrir `buscador_dni.html` en el navegador
-   - **Nota**: Algunos navegadores pueden bloquear la carga del JSON por seguridad
 
 ## 📁 Archivos incluidos
 
