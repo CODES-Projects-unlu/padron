@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Lista 110 - Buscador de Estudiantes</title>
+    <meta name="description" content="Buscador de estudiantes del padrón de la Universidad Nacional de Luján - Lista 110">
+    <meta name="theme-color" content="#EE8B25">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-container">
+                <img src="logo.svg" alt="Logo Lista 110" class="logo">
+                <div class="header-text">
+                    <h1>🔍 Lista 110</h1>
+                    <p>Universidad Nacional de Luján - Padrón Elecciones 2025</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="search-section">
+            <div class="stats">
+                <h3>📊 Estadísticas del Padrón</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" id="total-estudiantes">-</span>
+                        <span class="stat-label">Total Estudiantes</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="total-sedes">-</span>
+                        <span class="stat-label">Sedes</span>
+                    </div>
+                </div>
+            </div>
+
+            <form class="search-form" id="searchForm">
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    id="dniInput" 
+                    placeholder="Ingrese el número de DNI del estudiante..."
+                    maxlength="8"
+                    pattern="[0-9]*"
+                    inputmode="numeric"
+                    required
+                >
+                <button type="submit" class="search-btn">🔍 Buscar</button>
+            </form>
+
+            <div id="results" class="results"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

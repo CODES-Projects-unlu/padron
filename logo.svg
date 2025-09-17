@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Fondo circular con gradiente naranja -->
+  <defs>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EE8B25;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d67a1f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="whiteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Círculo de fondo -->
+  <circle cx="100" cy="100" r="95" fill="url(#orangeGradient)" stroke="#000000" stroke-width="3"/>
+  
+  <!-- Círculo interior blanco -->
+  <circle cx="100" cy="100" r="75" fill="url(#whiteGradient)" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Letra P grande -->
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="80" font-weight="bold" 
+        text-anchor="middle" fill="#000000" stroke="#EE8B25" stroke-width="2">P</text>
+  
+  <!-- Texto "PADRÓN" arriba -->
+  <text x="100" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+        text-anchor="middle" fill="#000000">PADRÓN</text>
+  
+  <!-- Texto "UNLu" abajo -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="bold" 
+        text-anchor="middle" fill="#000000">UNLu</text>
+</svg>

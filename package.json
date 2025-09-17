@@ -1,0 +1,29 @@
+{
+  "name": "lista-110-buscador-estudiantes",
+  "version": "1.0.0",
+  "description": "Buscador de estudiantes del padrón de la Universidad Nacional de Luján - Lista 110",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "estudiantes",
+    "padron",
+    "universidad",
+    "lujan",
+    "lista-110",
+    "buscador",
+    "dni"
+  ],
+  "author": "Lista 110 - Centro de Estudiantes UNLu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CODES-Projects-unlu/padron.git"
+  },
+  "homepage": "https://padron.vercel.app",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
