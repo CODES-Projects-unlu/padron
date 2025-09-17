@@ -1,7 +1,7 @@
 // Cargar datos del JSON
 async function cargarDatos() {
     try {
-        const response = await fetch('padron_estudiantes_final.json');
+        const response = await fetch('./padron_estudiantes_final.json');
         const data = await response.json();
         estudiantesData = data.estudiantes;
         
